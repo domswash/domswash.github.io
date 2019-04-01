@@ -1,0 +1,96 @@
+.btn-success:hover {
+    color: #fff;
+    background-color: #3295ff;
+    border-color: #007bff;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.mynav {
+    height: 160px;
+    width: 100%;
+    background-color: white;
+}
+
+.logo-container{
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo-container img {
+    margin: auto;
+    display: block;
+    /* width: 200%; */
+    max-width: 300px;
+}
+
+
+
+#nhs {
+    width: 80px;
+    height:40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    }
+  
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffff;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    position: relative;
+    }
+  
+    .containerfoot {
+      padding: 20px;
+      background-color: #fff;
+    }
+
+    #home{
+        display: block;
+        margin:  auto;
+        height: auto;
+        width: 4%;
+        padding-bottom: 5px;
+      }
+
+
+      @media(min-width: 768px) and (max-width: 1200px) {
+            
+        #home{
+          display: block;
+          margin:  auto;
+          height: auto;
+          width: 10%;
+          padding-bottom: 5px;
+        }
+      
+      }
+      
+      
+      @media(max-width: 767px){
+      
+        #home{
+          display: block;
+          margin:  auto;
+          height: auto;
+          width: 15%;
+          padding-bottom: 5px;
+        }
+      
+      }
